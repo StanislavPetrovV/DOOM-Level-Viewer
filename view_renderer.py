@@ -21,7 +21,7 @@ class ViewRenderer:
         # sky settings
         self.sky_id = self.asset_data.sky_id
         self.sky_tex = self.asset_data.sky_tex
-        self.sky_inv_scale = 200 / HEIGHT
+        self.sky_inv_scale = 160 / HEIGHT
         self.sky_tex_alt = 100
 
     def draw_sprite(self):
